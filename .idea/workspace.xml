@@ -5,21 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa2cc95b-321a-4407-a1d4-24390a5cc78f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/GetTestStendMyPosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/GetTestStendNotMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/PostTestStendLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -31,13 +39,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.GetTestStendNotMe">
+    <configuration name="GetTestStendNotMe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_final_gb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_gb_test_stend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_gb_test_stend" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTestStendNotMe.getPostNotMeAllParamsDESC200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_final_gb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_gb_test_stend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_gb_test_stend" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
+      <option name="METHOD_NAME" value="getPostNotMeAllParamsDESC200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTestStendNotMe.getPostNotMeBadToken401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_final_gb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_gb_test_stend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_gb_test_stend" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
+      <option name="METHOD_NAME" value="getPostNotMeBadToken401" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTestStendNotMe.getPostNotMeBigPage200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_final_gb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_gb_test_stend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_gb_test_stend" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
+      <option name="METHOD_NAME" value="getPostNotMeBigPage200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTestStendNotMe.getPostNotMePagesALL200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_final_gb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_gb_test_stend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_gb_test_stend" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
+      <option name="METHOD_NAME" value="getPostNotMePagesALL200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetTestStendNotMe" />
+        <item itemvalue="JUnit.GetTestStendNotMe.getPostNotMePagesALL200" />
+        <item itemvalue="JUnit.GetTestStendNotMe.getPostNotMeBigPage200" />
+        <item itemvalue="JUnit.GetTestStendNotMe.getPostNotMeBadToken401" />
+        <item itemvalue="JUnit.GetTestStendNotMe.getPostNotMeAllParamsDESC200" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +145,25 @@
       <option name="presentableId" value="Default" />
       <updated>1691142613585</updated>
     </task>
+    <task id="LOCAL-00001" summary="Подготовка проекта, настройка pom.xml.&#10;Тест commit.">
+      <created>1691143850327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691143850327</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Подготовка проекта, настройка pom.xml.&#10;Тест commit.">
+      <created>1691143918367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691143918367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Подготовка проекта, настройка pom.xml.&#10;Тест commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Подготовка проекта, настройка pom.xml.&#10;Тест commit." />
   </component>
 </project>
