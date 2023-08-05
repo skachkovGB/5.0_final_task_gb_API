@@ -138,9 +138,4 @@ public class GetTestStendNotMe extends AbstractTest{
 
         assertThat(response.get("message"), is("No API token provided or is not valid"));
     }
-
-
-
-
-
 }

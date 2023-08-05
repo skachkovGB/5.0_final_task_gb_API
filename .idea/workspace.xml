@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa2cc95b-321a-4407-a1d4-24390a5cc78f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/GetTestStendMyPosts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/GetTestStendNotMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/PostTestStendLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/GetTestStendMyPosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/GetTestStendMyPosts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/GetTestStendNotMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_gb_test_stend/GetTestStendNotMe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +41,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.GetTestStendNotMe">
-    <configuration name="GetTestStendNotMe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetTestStendMyPosts">
+    <configuration name="GetTestStendMyPosts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api_final_gb" />
       <extension name="coverage">
         <pattern>
@@ -56,13 +51,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api_gb_test_stend" />
-      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendMyPosts" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTestStendNotMe.getPostNotMeAllParamsDESC200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetTestStendMyPosts.getMyPostsBigPage200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api_final_gb" />
       <extension name="coverage">
         <pattern>
@@ -71,14 +66,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api_gb_test_stend" />
-      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
-      <option name="METHOD_NAME" value="getPostNotMeAllParamsDESC200" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendMyPosts" />
+      <option name="METHOD_NAME" value="getMyPostsBigPage200" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTestStendNotMe.getPostNotMeBadToken401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetTestStendMyPosts.getMyPostsDESC200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api_final_gb" />
       <extension name="coverage">
         <pattern>
@@ -87,14 +82,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api_gb_test_stend" />
-      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
-      <option name="METHOD_NAME" value="getPostNotMeBadToken401" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendMyPosts" />
+      <option name="METHOD_NAME" value="getMyPostsDESC200" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTestStendNotMe.getPostNotMeBigPage200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetTestStendMyPosts.getMyPostsSimple200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api_final_gb" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api_gb_test_stend" />
-      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
-      <option name="METHOD_NAME" value="getPostNotMeBigPage200" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendMyPosts" />
+      <option name="METHOD_NAME" value="getMyPostsSimple200" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTestStendNotMe.getPostNotMePagesALL200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetTestStendMyPosts.getMyPostsZeroPage200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api_final_gb" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +114,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api_gb_test_stend" />
-      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendNotMe" />
-      <option name="METHOD_NAME" value="getPostNotMePagesALL200" />
+      <option name="MAIN_CLASS_NAME" value="api_gb_test_stend.GetTestStendMyPosts" />
+      <option name="METHOD_NAME" value="getMyPostsZeroPage200" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetTestStendNotMe" />
-        <item itemvalue="JUnit.GetTestStendNotMe.getPostNotMePagesALL200" />
-        <item itemvalue="JUnit.GetTestStendNotMe.getPostNotMeBigPage200" />
-        <item itemvalue="JUnit.GetTestStendNotMe.getPostNotMeBadToken401" />
-        <item itemvalue="JUnit.GetTestStendNotMe.getPostNotMeAllParamsDESC200" />
+        <item itemvalue="JUnit.GetTestStendMyPosts" />
+        <item itemvalue="JUnit.GetTestStendMyPosts.getMyPostsZeroPage200" />
+        <item itemvalue="JUnit.GetTestStendMyPosts.getMyPostsBigPage200" />
+        <item itemvalue="JUnit.GetTestStendMyPosts.getMyPostsDESC200" />
+        <item itemvalue="JUnit.GetTestStendMyPosts.getMyPostsSimple200" />
       </list>
     </recent_temporary>
   </component>
@@ -159,11 +154,19 @@
       <option name="project" value="LOCAL" />
       <updated>1691143918367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Сделал POST на логин и GET на NotMe, надо делать GET MyPosts">
+      <created>1691169728666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691169728666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Подготовка проекта, настройка pom.xml.&#10;Тест commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Подготовка проекта, настройка pom.xml.&#10;Тест commit." />
+    <MESSAGE value="Сделал POST на логин и GET на NotMe, надо делать GET MyPosts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал POST на логин и GET на NotMe, надо делать GET MyPosts" />
   </component>
 </project>
